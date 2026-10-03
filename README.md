@@ -6,58 +6,48 @@ CreatorPulse is an enterprise-grade, self-hosted Discord notification bot suite 
 
 ---
 
-## Architecture & System Highlights
+## Architectural Philosophy & Highlights
 
-- 100% One-Time Purchase: Uncompiled, clean Python source code ownership forever with zero recurring SaaS fees.
-- True 1-Click Launch: Pre-configured start.bat setup wizard for Windows — automatically creates an isolated virtual environment (venv), installs dependencies, and boots the bot in under 60 seconds.
-- Zero-Cost 24/7 Cloud Support: Ultra-lightweight memory footprint (~50MB RAM). 100% compatible with Discloud Free Tier ($0/mo), Docker, or Linux VPS.
+- 100% One-Time Purchase: Full uncompiled, clean Python source code ownership forever with zero recurring SaaS renewal fees.
+- Zero-Cost 24/7 Cloud Support: Ultra-lightweight core memory footprint (~50MB RAM). 100% compatible with Discloud Free Tier ($0/mo), Docker, or Linux VPS.
 - Dual-Language System: Instant toggle between English and Thai (/settings language) with clean, full-width responsive alerts.
-- Dual Database Engine: Automatic local SQLite out-of-the-box or seamless remote PostgreSQL / Supabase cloud integration.
 - Zero API Quota Overhead: Built-in high-speed YouTube XML parser alerts for Live streams, Premieres, and Uploads without consuming Google API quotas.
 - Twitch Helix Integration: Automated OAuth2 token refresh protocol ensuring continuous uptime.
+- Decoupled Architecture (Pro Edition): The resource-heavy TikTok video scraper is isolated into an automated, serverless GitHub Actions worker, keeping your main bot ultra-light (~50MB) and safe from single-IP restrictions.
 
 ---
 
-## Edition Comparison
+## Edition Comparison & Technical Matrix
 
-| Feature | Standard Edition ($19.99) | Pro Edition ($29.99) |
+| Technical Specification | Standard Edition ($19.99) | Pro Edition ($29.99) |
 |---|---|---|
 | YouTube Alerts (Live, Premieres, Uploads) | Yes | Yes |
 | Twitch Alerts (Live Streams & Game Info) | Yes | Yes |
 | TikTok LIVE Detection (Webcast Polling) | Yes | Yes |
-| TikTok Video Uploads Feed Engine | No | Yes (Isolated GitHub Action) |
+| TikTok Uploaded Videos Feed Engine | Not Included | Yes (Decoupled Cloud Worker) |
 | Database Storage Engine | SQLite / Postgres | SQLite / Supabase / Postgres |
-| 1-Click Windows Setup (start.bat) | Yes | Yes |
-| 24/7 Free Cloud Config (Discloud / Docker) | Yes | Yes |
-| Step-by-Step Interactive Visual Manuals | Standard (TH/EN) | Standard + Oracle/Supabase (TH/EN) |
-| Upgrade Policy | Base Tier | Pay difference ($10.00) |
+| Core Bot 1-Click Launch (start.bat) | Yes (100% Plug & Play) | Yes (Core Bot Only) |
+| TikTok Video Engine Setup Required | None | Free 3-Step GitHub Actions Workflow |
+| Database Setup Required | Zero Config (Auto SQLite) | Zero Config (Auto SQLite) or Optional Cloud DB |
+| 24/7 Free Cloud Support (Discloud / Docker) | Yes | Yes |
+| Interactive Visual Manuals (HTML) | Standard (TH/EN) | Standard + Oracle/Supabase (TH/EN) |
+| Upgrade Policy | Base Tier | Pay Difference ($10.00) |
 
 ---
 
-## Quick Start Overview
+## Transparent Deployment Workflows
 
-### Method 1: Windows PC (1-Click Local Launch)
+### Standard Edition: True 1-Click Launch
+Designed as a turnkey, single-folder solution requiring zero programming knowledge:
 1. Extract the downloaded product archive.
-2. Double-click start.bat.
-3. The setup wizard launches the visual interactive manual in your browser, prompts for your Discord Bot Token on first boot, installs packages in an isolated virtual environment, and starts the bot.
+2. Double-click start.bat on Windows (or upload to Discloud Free Tier for 24/7 uptime).
+3. The setup wizard automatically launches the visual interactive manual in your browser, prompts for your Discord Bot Token on first boot, installs packages in an isolated virtual environment, and starts the bot with automatic SQLite storage.
 
-### Method 2: 24/7 Free Cloud (Discloud)
-1. Insert your Discord Bot Token into .env.
-2. Upload the archive to your Discloud Dashboard.
-3. The bot stays online 24/7 consuming only ~50MB RAM without keeping your personal computer running.
-
----
-
-## Commercial Purchase & Instant Delivery
-
-Instant digital download is available through our verified storefronts:
-
-- Standard Edition ($19.99): [Purchase Standard Edition on Whop](https://whop.com/discord-9c93/creatorpulse-discord-stream-alerts-bot-standard-edition/)
-- Pro Edition ($29.99): [Purchase Pro Edition on Whop](https://whop.com/discord-9c93/creatorpulse-pro-multi-platform-alert-bot-tiktok-feed-engine/)
-- All Products Catalog: [Browse Full Whop Catalog](https://whop.com/discord-9c93/products)
-- BuiltByBit Marketplace: [BuiltByBit Store](https://builtbybit.com) (Currently awaiting approval)
-- Official Community Discord: https://discord.gg/5sBvB5Ngm8
-- Technical Diagnostics & Business Contact: l3oone.alerts@gmail.com
+### Pro Edition: Modular Two-Tier Architecture
+Designed for creators who need both live stream alerts and uploaded TikTok clips without overloading their server:
+1. Core Bot Launch: Open the bot/ directory and run start.bat (or deploy to Discloud/Docker). The core bot begins monitoring TikTok LIVE, YouTube, and Twitch immediately.
+2. TikTok Video Feed Engine: Push the lightweight feed-worker/ directory to your personal GitHub repository, specify your creators in the TIKTOK_USERS variable, and link the generated private RSS feed into Discord using /tiktok feed. Runs 100% free on GitHub Actions cloud infrastructure.
+3. Optional Cloud Scaling: Follow the included visual manual (ADVANCED_SETUP_ORACLE_SUPABASE.html) to link managed Supabase PostgreSQL or deploy on a free Oracle Cloud Linux VPS.
 
 ---
 
@@ -72,7 +62,20 @@ This public repository serves as the official specification and documentation hu
 
 ---
 
-## Terms of Purchase & Disclaimer
+## Commercial Purchase & Instant Delivery
+
+Instant digital download is available through our verified storefronts:
+
+- Standard Edition ($19.99): [Purchase Standard Edition on Whop](https://whop.com/discord-9c93/creatorpulse-discord-stream-alerts-bot-standard-edition/)
+- Pro Edition ($29.99): [Purchase Pro Edition on Whop](https://whop.com/discord-9c93/creatorpulse-pro-multi-platform-alert-bot-tiktok-feed-engine/)
+- All Products Catalog: [Browse Full Whop Catalog](https://whop.com/discord-9c93/products)
+- BuiltByBit Marketplace: [BuiltByBit Store](https://builtbybit.com) (Submitted, awaiting approval)
+- Official Community Discord: https://discord.gg/5sBvB5Ngm8
+- Technical Diagnostics & Business Contact: l3oone.alerts@gmail.com
+
+---
+
+## Terms of Purchase & Transparency Notice
 
 1. Self-Hosted Delivery: This product is distributed as uncompiled, self-hosted Python source code and deployment templates. It is not a hosted multi-tenant SaaS service.
 2. Independent Development: CreatorPulse is independently developed by l3oone. It is not affiliated with, endorsed by, or sponsored by Discord, YouTube/Google, Twitch Interactive, or TikTok/ByteDance.
