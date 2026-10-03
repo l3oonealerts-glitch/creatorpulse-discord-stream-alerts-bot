@@ -1,6 +1,6 @@
 # CreatorPulse — Multi-Platform Discord Alert Bot (TikTok, YouTube, Twitch)
 
-[Buy on Whop](YOUR_WHOP_LINK) | [Discord Support Community](https://discord.gg/5sBvB5Ngm8) | [Documentation Hub](https://discord.gg/5sBvB5Ngm8)
+[Whop Storefront](https://whop.com/discord-9c93/products) | [Discord Support Community](https://discord.gg/5sBvB5Ngm8) | [Buy Standard ($19.99)](https://whop.com/discord-9c93/creatorpulse-discord-stream-alerts-bot-standard-edition/) | [Buy Pro ($29.99)](https://whop.com/discord-9c93/creatorpulse-pro-multi-platform-alert-bot-tiktok-feed-engine/)
 
 CreatorPulse is an enterprise-grade, self-hosted Discord notification bot suite built specifically for creators, streamers, and community servers. Monitor TikTok LIVE, YouTube, and Twitch simultaneously with ultra-low latency and zero recurring monthly fees.
 
@@ -20,7 +20,7 @@ CreatorPulse is an enterprise-grade, self-hosted Discord notification bot suite 
 
 ## Edition Comparison
 
-| Feature | Standard Edition ($19) | Pro Edition ($29.99) |
+| Feature | Standard Edition ($19.99) | Pro Edition ($29.99) |
 |---|---|---|
 | YouTube Alerts (Live, Premieres, Uploads) | Yes | Yes |
 | Twitch Alerts (Live Streams & Game Info) | Yes | Yes |
@@ -30,7 +30,7 @@ CreatorPulse is an enterprise-grade, self-hosted Discord notification bot suite 
 | 1-Click Windows Setup (start.bat) | Yes | Yes |
 | 24/7 Free Cloud Config (Discloud / Docker) | Yes | Yes |
 | Step-by-Step Interactive Visual Manuals | Standard (TH/EN) | Standard + Oracle/Supabase (TH/EN) |
-| Upgrade Policy | Base Tier | Full Suite ($15 difference) |
+| Upgrade Policy | Base Tier | Pay difference ($10.00) |
 
 ---
 
@@ -48,6 +48,19 @@ CreatorPulse is an enterprise-grade, self-hosted Discord notification bot suite 
 
 ---
 
+## Commercial Purchase & Instant Delivery
+
+Instant digital download is available through our verified storefronts:
+
+- Standard Edition ($19.99): [Purchase Standard Edition on Whop](https://whop.com/discord-9c93/creatorpulse-discord-stream-alerts-bot-standard-edition/)
+- Pro Edition ($29.99): [Purchase Pro Edition on Whop](https://whop.com/discord-9c93/creatorpulse-pro-multi-platform-alert-bot-tiktok-feed-engine/)
+- All Products Catalog: [Browse Full Whop Catalog](https://whop.com/discord-9c93/products)
+- BuiltByBit Marketplace: [BuiltByBit Store](https://builtbybit.com) (Currently awaiting approval)
+- Official Community Discord: https://discord.gg/5sBvB5Ngm8
+- Technical Diagnostics & Business Contact: l3oone.alerts@gmail.com
+
+---
+
 ## Repository Files Overview
 
 This public repository serves as the official specification and documentation hub for CreatorPulse:
@@ -56,15 +69,6 @@ This public repository serves as the official specification and documentation hu
 - requirements.txt — Production Python dependencies.
 - discloud.config — Standard deployment configuration for 24/7 Discloud free hosting.
 - README.md — Complete architectural specification and deployment guidelines.
-
----
-
-## Commercial Purchase & Instant Delivery
-
-- Purchase & Instant Access via Whop: [Click Here to Buy on Whop](YOUR_WHOP_LINK)
-- Alternative Marketplace: BuiltByBit (Pending approval)
-- Official Discord Support Community: https://discord.gg/5sBvB5Ngm8
-- Technical Diagnostics & Business Contact: l3oone.alerts@gmail.com
 
 ---
 
