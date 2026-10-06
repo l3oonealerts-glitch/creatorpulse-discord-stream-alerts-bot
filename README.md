@@ -69,7 +69,6 @@ Instant digital download is available through our verified storefronts:
 - Standard Edition ($19.99): [Purchase Standard Edition on Whop](https://whop.com/discord-9c93/creatorpulse-discord-stream-alerts-bot-standard-edition/)
 - Pro Edition ($29.99): [Purchase Pro Edition on Whop](https://whop.com/discord-9c93/creatorpulse-pro-multi-platform-alert-bot-tiktok-feed-engine/)
 - All Products Catalog: [Browse Full Whop Catalog](https://whop.com/discord-9c93/products)
-- BuiltByBit Marketplace: [BuiltByBit Store](https://builtbybit.com) (Submitted, awaiting approval)
 - Official Community Discord: https://discord.gg/5sBvB5Ngm8
 - Technical Diagnostics & Business Contact: l3oone.alerts@gmail.com
 
